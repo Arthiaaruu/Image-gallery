@@ -1,0 +1,56 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.heading{
+    margin-top: 10px;
+    text-align: center;
+}
+.image-container{
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.image-container img{
+    flex-basis: 20%;
+    object-fit: cover;
+    border: solid 2px black;
+    border-radius: 5px;
+
+}
+.overlay{
+    position: absolute;
+    background-color: rgb(10, 10, 10, 0.9);
+    top: 0;
+    height:150%;
+    width: 100%;
+    text-align: center;
+    display: none;
+    
+}
+#image-clicked{
+    margin: 20px;
+    display: inline-block;   
+}
+#image-clicked img{
+    height: 370px;
+    width: 320px;
+    object-fit: cover;
+    border: 3px white solid;
+
+}
+.close-image{
+    margin-left: 85%;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid gray;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    font-size: x-large;
+
+}
+
